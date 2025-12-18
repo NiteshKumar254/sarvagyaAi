@@ -48,7 +48,7 @@ try {
 app.use(cors({
   origin: [
     'http://localhost:5173',
-    'https://YOUR-VERCEL-APP.vercel.app'
+    'https://sarvagya-ai-lac.vercel.app/'
   ],
   credentials: true
 }));
@@ -64,6 +64,7 @@ app.use('/api/ai', requireAuth(), aiRouter);
 app.use('/api/user', requireAuth(), userRouter);
 
 const PORT = process.env.PORT || 3000;
+
 
 app.listen(PORT, () => {
   console.log('Server is running on port', PORT);
