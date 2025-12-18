@@ -92,7 +92,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://sarvagya-ai-lac.vercel.app" // ❌ no trailing slash
+      "https://sarvagya-ai-euhy.vercel.app" // ❌ no trailing slash
     ],
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"],
