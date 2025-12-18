@@ -7,10 +7,6 @@
     "server": "nodemon server.js",
     "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
     "@clerk/express": "^1.7.33",
     "@neondatabase/serverless": "^1.0.1",
@@ -18,10 +14,6 @@
     "cloudinary": "^2.7.0",
     "cors": "^2.8.5",
     "dotenv": "^17.2.2",
-<<<<<<< HEAD
-  
-=======
->>>>>>> 1a25f496edc844964483528ef990703252a660e5
     "express": "^4.19.2",
     "multer": "^2.0.2",
     "node-fetch": "^3.3.2",
